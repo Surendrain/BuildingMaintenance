@@ -4,9 +4,9 @@ function MeterReading(props){
     let {unitPrice,unitsConsumed} = props.readings
     return(
         <React.Fragment>
-            <span>Unit Price :</span>{unitPrice}<br/>
-            <span>Total Units consumed :</span>{unitsConsumed}<br/>
-            <span>Total Expense</span>💸{unitPrice * unitsConsumed}
+            <span>Unit Price : {unitPrice}</span>
+            <span>Total Units consumed : {unitsConsumed}</span>
+            <span>Total Expense : {unitPrice * unitsConsumed}</span>
         </React.Fragment>
     )
 
